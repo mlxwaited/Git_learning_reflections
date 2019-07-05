@@ -1,6 +1,14 @@
 what happened?
 why would you do this ?
-git init 
-git status
+git init #创建一个仓库
+git status  #查看状态
 
-git add
+git add #将工作目录的文件添加到暂存区域
+
+git diff #将工作目录的文件与暂存区域的文件进行比较
+
+git reset --hard #撤销工作区域或者暂存区域的所有更改，且撤销后不可恢复，需慎重
+
+git diff --staged #将暂存区域的文件与commit区域的文件进行比较
+
+git diff commit1 commit2 #在commit区域内进行commit1与commit2的比较
