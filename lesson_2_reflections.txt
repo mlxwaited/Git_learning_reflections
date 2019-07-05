@@ -1,0 +1,4 @@
+what happened?
+why would you do this ?
+git init 
+git status
